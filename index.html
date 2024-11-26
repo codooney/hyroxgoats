@@ -9,9 +9,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>HYROX Training</title>
+    <!-- Add cache-busting to CSS if applicable -->
+    <link rel="stylesheet" href="/styles.css?v=2.0">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Add cache-busting to main.js or main.tsx -->
+    <script type="module" src="/src/main.tsx?v=2.0"></script>
   </body>
 </html>
